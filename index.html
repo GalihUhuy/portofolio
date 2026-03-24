@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galih Margiantsyah Putra | Aspiring Programmer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="progress-bar">
+        <div class="progress"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Mpruy</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-text fade-in">
+                <h1>Hi, I'm <span class="typing-text"></span></h1>
+                <h2>A student & aspiring programmer</h2>
+                <p>High school student from East Jakarta passionate about coding, technology, and building innovative solutions. Learning web dev, Python, cybersecurity while aiming to create my own tech business.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="img-placeholder">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p>I began my programming journey in 2024 as a self-taught learner, driven by curiosity and a strong interest in technology. Currently studying Software Engineering at SMKN 24 Jakarta, I focus on developing my skills in web development and continuously improving my understanding of modern technologies. I have a growing interest in cybersecurity and enjoy exploring how systems work and how they can be secured. At the same time, I'm also learning about Artificial Intelligence to understand how modern technologies are developed and applied. With a consistent learning mindset and a drive to improve every day, I aim to create useful web-based solutions and contribute to the tech industry in Indonesia.</p>
+                    <p>With a curious mindset and dedication to continuous learning, I aim to master modern development tools and contribute to the tech ecosystem from Indonesia.</p>
+                </div>
+                <div class="about-image fade-in">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQEYa-uf3ak7KQ/profile-displayphoto-crop_800_800/B56Z0f5OLmH8AI-/0/1774356587694?e=1775692800&v=beta&t=vA9vYQ2K14TsMVIElYtPZSyj291gGUoKCi0ISBGMqUA" alt="Galih Margiantsyah Putra" class="profile-img" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card fade-in">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Basic scripting & logic</p>
+                    <span class="skill-level">Beginner</span>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Cybersecurity</h3>
+                    <p>Basic knowledge, CTF challenges</p>
+                    <span class="skill-level">Beginner</span>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fab fa-html5"></i>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                    <span class="skill-level">Beginner</span>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI</h3>
+                    <p>Basic understanding & curiosity</p>
+                    <span class="skill-level">Beginner</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-modal="modal1">
+                    <h3>Simple Calculator</h3>
+                    <p>A basic calculator built with HTML, CSS, and JavaScript.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JS</p>
+                    <button class="btn btn-primary modal-trigger" data-modal="modal1">View Details</button>
+                </div>
+                <div class="project-card" data-modal="modal2">
+                    <h3>Basic Website</h3>
+                    <p>A responsive personal portfolio website showcase.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JS</p>
+                    <button class="btn btn-primary modal-trigger" data-modal="modal2">View Details</button>
+                </div>
+                <div class="project-card" data-modal="modal3">
+                    <h3>Python Practice Scripts</h3>
+                    <p>Various Python scripts for practicing programming concepts.</p>
+                    <p><strong>Technologies:</strong> Python</p>
+                    <button class="btn btn-primary modal-trigger" data-modal="modal3">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="education" class="education section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-icon" onclick="toggleEducationContent()">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>SMKN 24 Jakarta</h3>
+                        <p>Software Engineering (Rekayasa Perangkat Lunak)</p>
+                        <span>2025 - 2028 (Expected)</span>
+                        <p>Focus on programming fundamentals, software development, web technologies, and practical projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-icon" onclick="toggleEducationContent()">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>SMP Negeri 233 Jakarta</h3>
+                        <p>Junior High School</p>
+                        <span>2022 - 2025</span>
+                        <p>Completed junior high education with focus on mathematics and informatika, laying foundation for technical studies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+<div class="contact-info fade-in">
+                    <div class="contact-circle" onclick="toggleContactLinks()">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                        <div class="contact-links">
+                            <div class="contact-item">
+                                <a href="mailto:galih2461@gmail.com?subject=Hello%20from%20portfolio" target="_blank">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </div>
+                            <div class="contact-item">
+                                <a href="https://github.com/GalihUhuy" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                            <div class="contact-item">
+                                <a href="https://www.linkedin.com/in/galih-mp" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                            <div class="contact-item">
+                                <a href="https://discord.com/users/765402914348072960" target="_blank">
+                                    <i class="fab fa-discord"></i>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+                <form class="contact-form fade-in" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <!-- Modal 1: Simple Calculator -->
+    <div id="modal1" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Toko web</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>A fully functional calculator with basic arithmetic operations including addition, subtraction, multiplication, and division. Features a clean, modern interface with smooth animations and responsive design.</p>
+                <div class="technologies">
+                    <h4>Technologies Used:</h4>
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="modal-links">
+                    <a href="#" class="btn btn-primary" target="_blank">Live Demo</a>
+                    <a href="#" class="btn btn-secondary" target="_blank">View Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Basic Website -->
+    <div id="modal2" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Basic Website</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>A responsive personal portfolio website showcasing modern web development techniques. Features smooth scrolling, typing animations, scroll progress indicator, and mobile-first responsive design.</p>
+                <div class="technologies">
+                    <h4>Technologies Used:</h4>
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="modal-links">
+                    <a href="#" class="btn btn-primary" target="_blank">Live Demo</a>
+                    <a href="#" class="btn btn-secondary" target="_blank">View Code</a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <!-- Modal 3: Python Practice Scripts -->
+    <div id="modal3" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Python Practice Scripts</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Collection of Python scripts practicing fundamental programming concepts including file handling, data structures, functions, error handling, and automation tasks. Includes number guessing game, to-do list manager, and simple data analyzer.</p>
+                <div class="technologies">
+                    <h4>Technologies Used:</h4>
+                    <span class="tech-tag">Python 3</span>
+                </div>
+                <div class="modal-links">
+                    <a href="#" class="btn btn-primary" target="_blank">Live Demo</a>
+                    <a href="#" class="btn btn-secondary" target="_blank">View Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- No modal needed for inline toggle -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
